@@ -17,7 +17,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://deployecommerce2.vercel.app/",
     methods: "GET,POST,PUT,DELETE,OPTIONS",
     credentials: true,
     allowedHeaders: "Content-Type, Authorization",
